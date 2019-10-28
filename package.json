@@ -1,0 +1,30 @@
+{
+    "name": "monster",
+    "displayName": "Monster",
+    "description": "A Standard quantized theme for Developers.",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thanjagarivamsi/Monster/"
+    },
+    "icon":"icon.png",
+    "publisher": "Vamsi-Thanjagari",
+    "author": {
+        "name": "Vamsi-Thanjagari"
+    },
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monster",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monster-color-theme.json"
+            }
+        ]
+    }
+}
